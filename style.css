@@ -97,8 +97,7 @@ h3 {
 #main-content {
 	
 	width: 90%;
-	max-width: 800px;
-	margin: 50px auto;
+  max-width: 800px;
 }
 
 	#main-content header,
@@ -132,7 +131,7 @@ h3 {
     height: auto;
   }
   video{
-    width: 719px;
+    width: 100%;
   }
   #tabla-precios {
     display:inline-block;
