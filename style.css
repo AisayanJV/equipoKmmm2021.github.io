@@ -1,7 +1,4 @@
-@font-face {
-    font-family: Moderne Sans;
-    src: url(fotn/Midos-Regular\ \(1\)\ \(1\).otf)
-  }
+
   @font-face {
     font-family: Fuente;
     src: url(fotn/Midos-Regular\ \(1\)\ \(1\).otf)
@@ -48,12 +45,17 @@
     color: #000;
   }
   h1 {
-    font-family: Moderne Sans, sans-serif;
+    font-family: Fuente, sans-serif;
     text-align: center;
     font-size: 2rem;
     width: 100%;
     letter-spacing: .5rem;
   }
+div#multimedia{
+  position: relative;
+  width: 80%;
+  left: 10%;
+}
   nav {
 	box-align:center;
 }
@@ -96,7 +98,7 @@ h3 {
 	margin: 15px 0;
 	text-align: center;
 	font-weight: 300;
-  font-family: Moderne Sans, sans-serif;
+  font-family: Fuente, sans-serif;
   color: #fff;
 }
 
