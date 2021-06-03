@@ -40,6 +40,9 @@
     color: white;
     transition: .4s;
   }
+  div#disquis_thread{
+    color: #fff;
+  }
   header:hover {
     background: rgba(255,255,255,0.8);
     color: #000;
