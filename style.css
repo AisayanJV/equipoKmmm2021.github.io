@@ -11,6 +11,8 @@
     margin: 0;
     background: #000;
     background-size: cover;
+    background-repeat: no-repeat; 
+    background-attachment: fixed
   }
   img { 
       position: absolute;
@@ -87,7 +89,7 @@ div#multimedia{
     font-size: 8vmin;
     text-align: center;
     margin: 2rem 3rem 0;
-    mix-blend-mode: overlay;
+    mix-blend-mode:hard-light;
     color: #fff;
     font-weight: 100;
   }
@@ -387,6 +389,7 @@ audio{
   position: fixed;
   top: 85%;
   left: 80%;
+  width: 15%;
 }
 a{
   font-family: Fuente;
